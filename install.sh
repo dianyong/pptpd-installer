@@ -3,7 +3,7 @@
 yum -y install git
 
 if [[ ! -d /tmp/pptpd-installer ]]; then
-    git clone https://github.com/xifeng/pptpd-installer.git /tmp/pptpd-installer
+    git clone https://github.com/dianyong/pptpd-installer.git /tmp/pptpd-installer
     cd /tmp/pptpd-installer
 else
     cd /tmp/pptpd-installer
